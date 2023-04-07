@@ -6,19 +6,42 @@ To Develop a convolutional deep neural network for digit classification and to v
 
 ## Problem Statement and Dataset
 
+Digit classification and to verify the response for scanned handwritten images.
+
+The MNIST dataset is a collection of handwritten digits. The task is to classify a given image of a handwritten digit into one of 10 classes representing integer values from 0 to 9, inclusively. The dataset has a collection of 60,000 handwrittend digits of size 28 X 28. Here we build a convolutional neural network model that is able to classify to it's appropriate numerical value.
+
 ## Neural Network Model
 
-Include the neural network model diagram.
+![i1](https://user-images.githubusercontent.com/81132849/230593944-615485ce-cfac-4a62-b9a9-17c96b8c416b.jpg)
 
 ## DESIGN STEPS
 
 ### STEP 1:
 
+Import the necessary python libraries 
+
 ### STEP 2:
+ 
+Import the mnist dataset to train and test the data 
 
 ### STEP 3:
 
-Write your own steps
+Train the image and display the size 
+
+### STEP 4:
+
+Using onehot encoded it will categorized to train the data 
+
+### STEP 5: 
+
+Plot the accuracy and loss in graphic pictorial
+
+### STEP 6: 
+
+print the confusion matrix and classification report for the predicted data.
+
+
+
 
 ## PROGRAM
 
@@ -105,18 +128,29 @@ print(x_single_prediction)
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-Include your plot here
+![image](https://user-images.githubusercontent.com/81132849/230591273-dc9cc9c4-9151-4d37-b1bd-ed1830d225d3.png)
+
+![image](https://user-images.githubusercontent.com/81132849/230591372-0384a976-0f23-4717-9490-ac8adcd1aadc.png)
+
 
 ### Classification Report
 
-Include Classification Report here
+![image](https://user-images.githubusercontent.com/81132849/230591459-46a7ded5-67e6-4a8d-b8db-76da3f1bfb02.png)
+
 
 ### Confusion Matrix
 
-Include confusion matrix here
+![image](https://user-images.githubusercontent.com/81132849/230591529-e7c145f9-19d1-482f-91b4-302af1d2f9fe.png)
+
 
 ### New Sample Data Prediction
 
-Include your sample input and output for your hand written images.
+![image](https://user-images.githubusercontent.com/81132849/230593127-787f0623-1158-4fdf-8d85-d355022226e6.png)
+
+
+![image](https://user-images.githubusercontent.com/81132849/230593851-5beb1236-4ddc-4fbb-b225-55fcf776e8cc.png)
+
 
 ## RESULT
+
+A convolutional deep neural network for digit classification and to verify the response for scanned handwritten images is developed sucessfully.
